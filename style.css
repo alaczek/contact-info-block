@@ -1,0 +1,16 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wp-block-contact-info-contact-info-block {
+	color: green;
+	background: #cfc;
+	border: 2px solid #9c9;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wp-block-contact-info-contact-info-block span {
+	margin-right: 20px;
+}
